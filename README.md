@@ -8,3 +8,9 @@ Airport information is obtained and generated through the following link:
 ## Usage
 ### OpenWeather API Key
 Get your OpenWeather API Key [here](https://openweathermap.org/price).
+
+Run the following line and follow the instruction.
+
+```
+$ ./keyPrepare.sh
+```
