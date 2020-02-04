@@ -18,3 +18,6 @@ curWthr = obj.getCurrent()
 ```
 
 `curWthr` is the current weather of "BOS" airport. (in json format)
+
+### Example
+See an example [here](https://github.com/BUEC500C1/api-design-JWangNov/blob/master/example.py).
