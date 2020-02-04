@@ -14,3 +14,13 @@ Run the following line and follow the instruction.
 ```
 $ ./keyPrepare.sh
 ```
+
+### Get Airport Weather
+```
+import getAirportWeather
+
+obj = getAirportWeather("BOS", myKey)
+curWthr = obj.getCurrent()
+```
+
+`curWthr` is the current weather of "BOS" airport. (in json format)
