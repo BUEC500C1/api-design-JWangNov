@@ -3,7 +3,7 @@ import json
 import os
 import requests
 
-from myOpenWeatherKey import *
+# from myOpenWeatherKey import *
 
 
 class getAirportWeather():
@@ -40,17 +40,17 @@ class getAirportWeather():
             raise Exception("ERROR: INVALID RESPONSE")
 
 
-def runrun():
-    obj = getAirportWeather("BOS", myKey)
-    # print(obj.latitude, obj.longitude)
-    rjson = obj.getCurrent()
-    print(rjson)
+# def runrun():
+#     obj = getAirportWeather("BOS", myKey)
+#     # print(obj.latitude, obj.longitude)
+#     rjson = obj.getCurrent()
+#     print(rjson)
 
 
-def failfail():
-    flflflfl = getAirportWeather("asduibovqq")
+# def failfail():
+#     flflflfl = getAirportWeather("asduibovqq")
 
 
-if __name__ == '__main__':
-    runrun()
-    failfail()
+# if __name__ == '__main__':
+#     runrun()
+#     failfail()

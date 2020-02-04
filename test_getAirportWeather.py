@@ -1,6 +1,6 @@
 import pytest
 from getAirportWeather import *
-from myOpenWeatherKey import *
+# from myOpenWeatherKey import *
 
 def test0():
     obj0 = getAirportWeather("BOS")
@@ -15,3 +15,4 @@ def test0():
 def test2():
     with pytest.raises(Exception):
         assert(getAirportWeather("123"))
+        assert(getAirportWeather("BOS", "notakey..."))  
