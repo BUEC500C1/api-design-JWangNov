@@ -3,7 +3,7 @@ import json
 import os
 import requests
 
-import myOpenWeatherKey
+from myOpenWeatherKey import *
 
 
 class getAirportWeather():
@@ -41,7 +41,7 @@ class getAirportWeather():
 
 
 def runrun():
-    obj = getAirportWeather("BOS", myOpenWeatherKey.myKey)
+    obj = getAirportWeather("BOS", myKey)
     # print(obj.latitude, obj.longitude)
     rjson = obj.getCurrent()
     print(rjson)
