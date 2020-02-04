@@ -9,17 +9,11 @@ Airport information is obtained and generated through the following link:
 ### OpenWeather API Key
 Get your OpenWeather API Key [here](https://openweathermap.org/price).
 
-Run the following line and follow the instruction.
-
-```
-$ ./keyPrepare.sh
-```
-
 ### Get Airport Weather
 ```
 import getAirportWeather
 
-obj = getAirportWeather("BOS", myKey)
+obj = getAirportWeather("BOS", {YOUR_API_KEY})
 curWthr = obj.getCurrent()
 ```
 
